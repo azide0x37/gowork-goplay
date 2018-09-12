@@ -8,20 +8,12 @@ Scripts for switching AWS credential environments.
  - create following scripts
  - add below aliases to ~/.zshrc or ~/.bashrc or whatever.
 
-####~/.awsPlay.sh
-    '''shell
+#### ~/.awsPlay.sh
     cp -r ~/.aws/credentials.play ~/.aws/credentials
-    '''
 
-####~/.awsWork.sh
-    '''shell
+#### ~/.awsWork.sh
     cp -r ~/.aws/credentials.work ~/.aws/credentials
-    '''
 
-####~/.zshrc
-    '''shell
-    ...
+#### ~/.zshrc
     alias gowork="~/.awsWork.sh"
     alias goplay="~/.awsPlay.sh"
-    ...
-    '''
